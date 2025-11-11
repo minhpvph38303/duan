@@ -15,7 +15,11 @@ b2:Tạo file report.js :
 #
 
 b3:chạy scrip
-Mở terminal tại thư mục chứa file và chạy lệnh:node report.js
+Mở terminal tại thư mục chứa file và chạy lệnh:
+
+#
+
+node report.js
 
 #
 
