@@ -3,9 +3,6 @@ b1: File cucumber-report.json có cấu trúc như sau:
 {
 "scenarios": [
 { "name": "Login ", "status": "pass" },
-{ "name": "Login", "status": "failed" },
-{ "name": "Logout ", "status": "pass" },
-{ "name": "View ", "status": "undefile" }
 ]
 }
 b2:Tạo file report.js :
