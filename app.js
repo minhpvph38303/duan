@@ -1,1 +1,1 @@
-console.log('Login feature');
+console.log('Login');
