@@ -1,0 +1,8 @@
+{
+  "scenarios": [
+    { "name": "Login successfully", "status": "passed" },
+    { "name": "Login with wrong password", "status": "failed" },
+    { "name": "Logout successfully", "status": "passed" },
+    { "name": "View profile", "status": "undefined" }
+  ]
+}
