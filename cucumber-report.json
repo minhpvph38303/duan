@@ -1,8 +1,0 @@
-{
-  "scenarios": [
-    { "name": "Login ", "status": "pass" },
-    { "name": "Login", "status": "failed" },
-    { "name": "Logout ", "status": "pass" },
-    { "name": "View ", "status": "undefile" }
-  ]
-}
