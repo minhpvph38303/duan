@@ -3,13 +3,13 @@ const customerService = require("../service/customerService");
 
 module.exports = {
   getAllCustomers: async (req, res) => {
-    await customerService.getAllCustomers();
-    res.json({ message: "hien thi" });
+    const customers = await customerService.getAllCustomers();
+    res.json(customers);
   },
   getCustomerById: async (req, res) => {
     const id = req.params.id;
-    await customerService.getCustomerById(id);
-    res.json({ message: "hien thi khach hang theo id" });
+    const customers = await customerService.getCustomerById(id);
+    res.json(customers);
   },
   createCustomer: async (req, res) => {
     await customerService.createCustomer(req.body);
